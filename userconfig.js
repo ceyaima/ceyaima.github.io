@@ -20,7 +20,7 @@ const default_configuration = {
   additionalClocks: [
     {
       label: "HK",
-      timezone: "HongKong/HongKong",
+      timezone: "Asia/Hong_Kong",
       format: "h:i",
       icon_color: palette.peach,
     },
@@ -43,7 +43,7 @@ const default_configuration = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "anilist",
+      name: "病気",
       background_url: "src/img/banners/banner_09.gif",
       categories: [
         {
@@ -81,7 +81,7 @@ const default_configuration = {
             {
               name: "album",
               url: "https://imgur.com/a/croixphs-badges-ctrl-f-character-name-NsDvcaq",
-              icon: "library-photo",
+              icon: "photo",
               icon_color: palette.teal,
             },
             {
@@ -99,32 +99,32 @@ const default_configuration = {
               name: "enlist",
               url: "https://anilist.co/activity/26266744",
               icon: "login-2",
-              icon_color: palette.sapphire,
+              icon_color: palette.green,
             },
             {
               name: "casefiles",
               url: "https://imgur.com/a/awc-stuff-bqoADrf",
               icon: "folder-open",
-              icon_color: palette.sapphire,
+              icon_color: palette.teal,
             },
             {
               name: "calculator",
               url: "https://awc.moe/calculators",
               icon: "calculator",
-              icon_color: palette.sapphire,
+              icon_color: palette.blue,
             },
             {
               name: "submit",
               url: "https://anilist.co/forum/thread/38857",
               icon: "flag-3",
-              icon_color: palette.sapphire,
+              icon_color: palette.red,
             },
           ],
         },
       ],
     },
     {
-      name: "work",
+      name: "other",
       background_url: "src/img/banners/banner_07.gif",
       categories: [
         {
@@ -180,7 +180,7 @@ const default_configuration = {
               name: "avast-ye",
               url: "https://rentry.co/megathread",
               icon: "blockquote",
-              icon_color: palette.sky,
+              icon_color: palette.yellow,
             },
             {
               name: "otsu",
