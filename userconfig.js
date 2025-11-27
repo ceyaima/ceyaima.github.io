@@ -141,7 +141,7 @@ const default_configuration = {
               url: "https://genai.polyu.edu.hk/",
               icon: "brain",
               icon_color: palette.teal,
-            }
+            },
           ],
         },
         {
