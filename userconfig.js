@@ -39,7 +39,7 @@ const default_configuration = {
   disabled: [],
   localIcons: true,
   localFonts: true,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "https://www.chat.deepseek.com/",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -141,13 +141,7 @@ const default_configuration = {
               url: "https://genai.polyu.edu.hk/",
               icon: "brain",
               icon_color: palette.teal,
-            },
-            {
-              name: "mail",
-              url: "https://outlook.office.com/mail/?realm=connect.polyu.hk&login_hint=25089289d@connect.polyu.hk",
-              icon: "mail",
-              icon_color: palette.blue,
-            },
+            }
           ],
         },
         {
