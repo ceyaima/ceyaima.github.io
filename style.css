@@ -56,6 +56,10 @@ header {
     z-index: 100;
 }
 
+a {
+    text-decoration: none;
+}
+
 .logo-text {
     color: var(--txt-2);
     text-decoration: none;
