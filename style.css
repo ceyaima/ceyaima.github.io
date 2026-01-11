@@ -56,10 +56,6 @@ header {
     z-index: 100;
 }
 
-main a {
-    text-decoration: none;
-}
-
 .logo-text {
     color: var(--txt-2);
     text-decoration: none;
@@ -197,6 +193,11 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 1.5rem;
     align-content: start;
+}
+
+
+.projects-scroll-container a {
+    text-decoration: none;
 }
 
 .project-item {
