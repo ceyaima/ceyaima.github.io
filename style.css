@@ -1,3 +1,14 @@
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 :root {
     --bg-1: oklch(19% 0 0);
     --bg-2: oklch(23% 0 0);
@@ -14,15 +25,54 @@
     box-sizing: border-box;
 }
 
-@keyframes slideInFromTop {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-1);
+    color: var(--txt-2);
+    font-family: var(--font-family);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.logo-text {
+    color: var(--txt-2);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.socials-container { display: flex; gap: 1rem; }
+.social-circle {
+    width: 42px; height: 42px; border-radius: 50%;
+    background-color: var(--bg-2); display: flex;
+    align-items: center; justify-content: center;
+    transition: 0.2s;
+}
+
+.icon { fill: var(--txt-2); width: 60%; height: 60%; }
+
+/* Core Panel Look (No layout) */
+.panel-wrapper { position: relative; transition: transform 0.8s; transform-style: preserve-3d; }
+.panel-label {
+    position: absolute; top: -14px; left: 20px;
+    background-color: var(--bg-1); color: var(--txt-4);
+    padding: 0 8px; font-size: 1.1rem; font-weight: bold; z-index: 10;
+}
+.panel {
+    border: 2px solid var(--bg-3);
+    background-color: var(--bg-1);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 body {
