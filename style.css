@@ -25,10 +25,6 @@
     box-sizing: border-box;
 }
 
-main {
-    animation: slideInFromTop 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -95,6 +91,7 @@ header {
 
 /* 3D Scene Setup */
 main {
+    animation: slideInFromTop 0.6s cubic-bezier(0.4, 0, 0.2, 1) forwards;
     flex: 1;
     display: flex;
     align-items: center;
